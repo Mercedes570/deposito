@@ -18,6 +18,7 @@ public class Main {
             cuenta1.retirar(2300);
         } catch (Exception e) {
             System.out.print("Fallo al retirar");
+            System.out.print("nuevo cambio");
         }
         try {
             System.out.println("Ingreso en cuenta");
